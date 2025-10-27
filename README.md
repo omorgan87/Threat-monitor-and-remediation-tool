@@ -1,2 +1,13 @@
-# Threat-monitor-and-remediation-tool
-This script is a proactive PHP threat monitor and remediation tool designed to scan your server for suspicious PHP code patterns, quarantine infected files, and optionally send an alert
+# PHP Threat Monitor
+
+A lightweight Bash script to scan for suspicious PHP patterns, quarantine infected files, and send alerts.
+
+## Features
+- Scans directories for common malware signatures
+- Quarantines flagged files
+- Sends email alerts (optional)
+- Logs all actions for audit purposes
+
+## Usage
+```bash
+sudo ./monitor.sh
